@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-const apiUrl = "http://localhost:5003"
+//const apiUrl = "http://localhost:5003"
 const instance=axios.create({
   baseURL:"http://localhost:5003"
 })
@@ -22,7 +22,7 @@ export default {
   addTask: async(name)=>{
     console.log('addTask', name);
     // const result = await axios.post(`${apiUrl}/items`,name);
-    const result = await instance.post(`/items?name=${name}`);
+    //const result = await instance.post(`/items?name=${name}`);
 
     return name;
   },
