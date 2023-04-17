@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import React from 'react'
 import service from './service.js';
 
 function App() {
