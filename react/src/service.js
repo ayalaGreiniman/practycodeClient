@@ -2,7 +2,7 @@ import axios from 'axios';
 //import { useEffect, useState } from 'react';
 //const apiUrl = "http://localhost:5003"
 const instance=axios.create({
-  baseURL:"http://localhost:5003"
+  baseURL:"https://todoserver-rxwz.onrender.com/"
 })
 
 instance.interceptors.response.use(
